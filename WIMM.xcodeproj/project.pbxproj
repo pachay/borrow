@@ -25,6 +25,7 @@
 		9686E7871858A80900E268C9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9686E7621858A80900E268C9 /* CoreData.framework */; };
 		9686E78F1858A80900E268C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9686E78D1858A80900E268C9 /* InfoPlist.strings */; };
 		9686E7911858A80900E268C9 /* WIMMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686E7901858A80900E268C9 /* WIMMTests.m */; };
+		9686E7E61858BC6200E268C9 /* WMFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686E7E51858BC6200E268C9 /* WMFeedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		9686E78C1858A80900E268C9 /* WIMMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WIMMTests-Info.plist"; sourceTree = "<group>"; };
 		9686E78E1858A80900E268C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9686E7901858A80900E268C9 /* WIMMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WIMMTests.m; sourceTree = "<group>"; };
+		9686E7E41858BC6200E268C9 /* WMFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMFeedViewController.h; sourceTree = "<group>"; };
+		9686E7E51858BC6200E268C9 /* WMFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMFeedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				9686E76D1858A80900E268C9 /* WMAppDelegate.h */,
 				9686E76E1858A80900E268C9 /* WMAppDelegate.m */,
 				9686E7701858A80900E268C9 /* Main.storyboard */,
+				9686E7E41858BC6200E268C9 /* WMFeedViewController.h */,
+				9686E7E51858BC6200E268C9 /* WMFeedViewController.m */,
 				9686E7761858A80900E268C9 /* WMMasterViewController.h */,
 				9686E7771858A80900E268C9 /* WMMasterViewController.m */,
 				9686E7791858A80900E268C9 /* WMDetailViewController.h */,
@@ -264,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9686E7E61858BC6200E268C9 /* WMFeedViewController.m in Sources */,
 				9686E76F1858A80900E268C9 /* WMAppDelegate.m in Sources */,
 				9686E7751858A80900E268C9 /* WIMM.xcdatamodeld in Sources */,
 				9686E7781858A80900E268C9 /* WMMasterViewController.m in Sources */,
@@ -477,6 +483,7 @@
 				9686E7961858A80900E268C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9686E7971858A80900E268C9 /* Build configuration list for PBXNativeTarget "WIMMTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +492,7 @@
 				9686E7991858A80900E268C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
